@@ -15,7 +15,7 @@ namespace CBSAdvisor.Web.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "CBSAdvisor Web application.";
 
             return View();
         }
