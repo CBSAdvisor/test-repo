@@ -26,5 +26,12 @@ namespace CBSAdvisor.Web.Controllers
 
             return View();
         }
+
+        public ActionResult List()
+        {
+            ViewBag.Message = "Your List page.";
+
+            return View();
+        }
     }
 }
